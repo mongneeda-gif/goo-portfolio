@@ -788,6 +788,7 @@ section,
     padding-bottom: 80px;
     background: url("/assets/img/profile/back.png") no-repeat right 150px fixed;
     background-size: 60%;
+    overflow: hidden;
 
 }
 
