@@ -786,7 +786,7 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: url("https://mongneeda-gif.github.io/goo-portfolio/assets/img/profile/back.png") no-repeat right 150px fixed;
+    background: url("../img/profile/back.png") no-repeat right 150px fixed;
     background-size: 60%;
     overflow: hidden;
 
