@@ -786,6 +786,8 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
+    background: url("/assets/img/profile/back.png") no-repeat right 150px fixed;
+    background-size: 60%;
 
 }
 
@@ -855,7 +857,7 @@ section,
 
 .hero .social-links a:hover {
     background: var(--accent-color);
-    color: var(--contrast-color);
+    color: var(--background-color);
     transform: translateY(-3px);
 }
 
@@ -1972,6 +1974,9 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio {
+    background-color: var(--surface-color);
+}
 .portfolio .portfolio-filters {
     display: flex;
     justify-content: center;
@@ -2029,6 +2034,7 @@ section,
     overflow: hidden;
     border-radius: 8px;
     aspect-ratio: 4/3;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .portfolio-card .portfolio-image-container img {
