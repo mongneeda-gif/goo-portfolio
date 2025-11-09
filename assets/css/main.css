@@ -797,7 +797,8 @@ section,
     height: 100%;
     object-fit: contain;
     z-index: 1;
-    left: 200%;
+    left: 25%;
+    top:16%;
 }
 
 .hero:before {
