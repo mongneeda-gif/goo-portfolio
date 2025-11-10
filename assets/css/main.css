@@ -793,18 +793,6 @@ section,
 
 }
 
-.hero img {
-    position: absolute;
-    inset: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    z-index: 1;
-    left: 25%;
-    top:16%;
-}
-
 .hero:before {
     content: "";
     /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
@@ -812,6 +800,8 @@ section,
     inset: 0;
     z-index: 2;
     border-radius: 0;
+    background: url("../img/profile/plant.png") no-repeat left bottom fixed;
+
 }
 
 .hero .container {
