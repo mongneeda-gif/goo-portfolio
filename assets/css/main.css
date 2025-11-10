@@ -787,7 +787,7 @@ section,
     overflow: hidden;
     padding-bottom: 80px;
     background: url("../img/profile/back.png") no-repeat right bottom fixed;
-    background-size: 53%;
+    background-size: contain;
     overflow: hidden;
 
 
@@ -800,7 +800,7 @@ section,
     inset: 0;
     z-index: 2;
     border-radius: 0;
-    background: url("../img/profile/plant.png") no-repeat left bottom fixed;
+    /*background: url("../img/profile/plant.png") no-repeat left bottom fixed;*/
 
 }
 
