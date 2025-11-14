@@ -786,10 +786,10 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: url("../img/profile/back.png") no-repeat right bottom fixed;
+    background: #c1c4c0 url("../img/profile/hero-bg.jpg") no-repeat left bottom fixed;
     background-size: contain;
     overflow: hidden;
-
+    z-index:3;
 
 }
 
@@ -800,8 +800,9 @@ section,
     inset: 0;
     z-index: 2;
     border-radius: 0;
-    /*background: url("../img/profile/plant.png") no-repeat left bottom fixed;*/
 
+    background: url("../img/profile/back.png") no-repeat right bottom fixed;
+    background-size: contain;
 }
 
 .hero .container {
@@ -858,8 +859,11 @@ section,
         padding-top: 80px;
         min-height: 60vh;
         padding-bottom: 80px;
-        background-size: 50%;
-        background-position: center center;
+        background-position: left top;
+        background-size: cover;
+    }
+    .hero:before {
+        background-position: right center;
     }
 
     .hero h2 {
