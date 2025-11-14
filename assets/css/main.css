@@ -786,7 +786,7 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: #c1c4c0 url("../img/profile/hero-bg.jpg") no-repeat left bottom fixed;
+    background: #c1c4c0 url("../img/profile/hero-bg.png") no-repeat left bottom fixed;
     background-size: contain;
     overflow: hidden;
     z-index:3;
