@@ -860,7 +860,7 @@ section,
         background-size: contain;
     }
     .hero:before {
-        background-position: right bottom;
+        background-position: right 0  bottom -10px;
         background-size: 70%;
     }
 }
