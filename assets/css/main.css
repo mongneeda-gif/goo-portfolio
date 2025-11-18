@@ -801,7 +801,7 @@ section,
     z-index: 2;
     border-radius: 0;
 
-    background: url("../img/profile/back.png") no-repeat right bottom fixed;
+    background: url("../img/profile/back.png") no-repeat right 20px top 100px fixed;
     background-size: contain;
 }
 
