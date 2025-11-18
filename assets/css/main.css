@@ -856,12 +856,12 @@ section,
 @media (max-width: 1366px) {
     .hero {
 
-        background-position: left top;
-        background-size: contain;
+        background-size: 50%;
+        background: #c1c4c0 url("../img/profile/hero-bg-m.png") left top no-repeat;
     }
     .hero:before {
         background-position: right 0  bottom -10px;
-        background-size: 70%;
+        background-size: 60%;
     }
 }
 @media (max-width: 768px) {
