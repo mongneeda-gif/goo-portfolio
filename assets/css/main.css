@@ -889,7 +889,7 @@ section,
         background: #c1c4c0 ;
     }
     .hero:before {
-        background-position: center center;
+        background-position: center top 150px;
     }
 }
 
