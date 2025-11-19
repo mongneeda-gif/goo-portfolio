@@ -873,7 +873,7 @@ section,
         background-size: cover;
     }
     .hero:before {
-        background-position: right center;
+        background-position: right bottom;
     }
 
     .hero h2 {
