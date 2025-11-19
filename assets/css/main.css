@@ -867,7 +867,7 @@ section,
 @media (max-width: 768px) {
     .hero {
         padding-top: 80px;
-        min-height: 60vh;
+        min-height: 55vh;
         padding-bottom: 80px;
         background-position: left top;
         background-size: cover;
