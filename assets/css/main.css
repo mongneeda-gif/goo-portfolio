@@ -873,7 +873,8 @@ section,
         background-size: cover;
     }
     .hero:before {
-        background-position: right bottom;
+        background-size: 55%;
+
     }
 
     .hero h2 {
@@ -899,7 +900,7 @@ section,
         background: #c1c4c0 ;
     }
     .hero:before {
-        background-position: center top 150px;
+        background-position: center bottom ;
     }
 }
 
