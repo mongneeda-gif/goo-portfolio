@@ -795,11 +795,9 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat right bottom fixed;
+    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat right top fixed;
     background-size: cover;
     overflow: hidden;
-    z-index:3;
-
 }
 
 .hero:before {
@@ -807,9 +805,7 @@ section,
     /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
     position: absolute;
     inset: 0;
-    z-index: 2;
-    border-radius: 0;
-    background: url("../img/profile/back.png") no-repeat right 20px top 100px fixed;
+    background: url("../img/profile/back.png") no-repeat left  top 100px fixed;
     background-size: contain;
 }
 
@@ -870,7 +866,7 @@ section,
     }
     .hero:before {
         background-position: right 0  bottom -10px;
-        background-size: 60%;
+
     }
 }
 @media (max-width: 768px) {
