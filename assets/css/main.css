@@ -870,7 +870,7 @@ section,
 @media (max-width: 768px) {
     .hero {
         padding-top: 80px;
-        min-height: 55vh;
+        min-height: 60vh;
         padding-bottom: 80px;
         background-position: center center;
     }
@@ -894,9 +894,7 @@ section,
     }
 }
 @media (max-width: 468px) {
-    .hero {
-        min-height: 55vh;
-    }
+
     .hero:before {
         background-position: center top 250px;
     }
