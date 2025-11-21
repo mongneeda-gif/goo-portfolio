@@ -795,9 +795,10 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat right top fixed;
+    background: #c1c4c0 url("/assets/img/profile/sea.jpg") no-repeat right bottom fixed;
     background-size: cover;
     overflow: hidden;
+    z-index:3;
 }
 
 .hero:before {
@@ -805,7 +806,7 @@ section,
     /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
     position: absolute;
     inset: 0;
-    background: url("../img/profile/back.png") no-repeat left  top 100px fixed;
+    background: url("/assets/img/profile/back.png") no-repeat left  top 100px fixed;
     background-size: contain;
 }
 
@@ -858,21 +859,20 @@ section,
     transform: translateY(-3px);
 }
 @media (max-width: 1366px) {
-    .hero {
-        /*background: #c1c4c0 url("../img/profile/hero-bg-m.png") left top no-repeat;*/
 
-    }
     .hero:before {
         background-position: right 0  bottom -10px;
+        background-attachment: scroll;
 
     }
 }
 @media (max-width: 768px) {
     .hero {
         padding-top: 80px;
-        min-height: 60vh;
+        min-height: 60dvh;
         padding-bottom: 80px;
         background-position: center center;
+        background-attachment: scroll;
     }
 
     .hero h2 {
