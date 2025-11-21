@@ -795,7 +795,7 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: #c1c4c0 url("/assets/img/profile/sea.jpg") no-repeat right bottom fixed;
+    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat right bottom fixed;
     background-size: cover;
     overflow: hidden;
     z-index:3;
@@ -806,7 +806,7 @@ section,
     /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
     position: absolute;
     inset: 0;
-    background: url("/assets/img/profile/back.png") no-repeat left  top 100px fixed;
+    background: url("../img/profile/back.png") no-repeat left  top 100px fixed;
     background-size: contain;
 }
 
