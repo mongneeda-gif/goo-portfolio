@@ -806,7 +806,7 @@ section,
     /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
     position: absolute;
     inset: 0;
-    background: url("../img/profile/back.png") no-repeat left  top 100px fixed;
+    background: url("../img/profile/back.png") no-repeat right  top 100px fixed;
     background-size: contain;
 }
 
@@ -819,12 +819,14 @@ section,
     margin: 0;
     font-size: 60px;
     font-weight: 700;
+    color: var(--background-color);
+    text-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .hero p {
     margin: 10px 0 0 0;
     font-size: 36px;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, var(--background-color), transparent 20%);
 }
 
 .hero p span {
@@ -847,8 +849,8 @@ section,
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: color-mix(in srgb, var(--default-color), transparent 92%);
-    color: var(--default-color);
+    background: color-mix(in srgb, var(--default-color), transparent 50%);
+    color: var(--background-color);
     font-size: 30px;
     transition: 0.3s;
 }
