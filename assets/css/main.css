@@ -795,8 +795,8 @@ section,
     justify-content: center;
     overflow: hidden;
     padding-bottom: 80px;
-    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat left bottom fixed;
-    background-size: contain;
+    background: #c1c4c0 url("../img/profile/sea.jpg") no-repeat right bottom fixed;
+    background-size: cover;
     overflow: hidden;
     z-index:3;
 
