@@ -859,10 +859,8 @@ section,
 }
 @media (max-width: 1366px) {
     .hero {
-        background-size: 50%;
         /*background: #c1c4c0 url("../img/profile/hero-bg-m.png") left top no-repeat;*/
-        background: #c1c4c0 url("../img/profile/sea.jpg") right top no-repeat;
-        background-size: cover;
+
     }
     .hero:before {
         background-position: right 0  bottom -10px;
