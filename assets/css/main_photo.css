@@ -819,15 +819,12 @@ section,
     margin: 0;
     font-size: 60px;
     font-weight: 700;
-    color: var(--background-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .hero p {
     margin: 10px 0 0 0;
     font-size: 36px;
-    color: color-mix(in srgb, var(--background-color), transparent 20%);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .hero p span {
@@ -850,8 +847,8 @@ section,
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: color-mix(in srgb, var(--background-color), transparent 92%);
-    color: var(--background-color);
+    background: color-mix(in srgb, var(--default-color), transparent 92%);
+    color: var(--default-color);
     font-size: 30px;
     transition: 0.3s;
 }
@@ -864,7 +861,7 @@ section,
 @media (max-width: 1366px) {
 
     .hero:before {
-        background-position: left bottom;
+        background-position: right 0  bottom -10px;
         background-attachment: scroll;
 
     }
@@ -898,7 +895,9 @@ section,
 }
 @media (max-width: 468px) {
 
-
+    .hero:before {
+        background-position: center top 250px;
+    }
 }
 
 /*--------------------------------------------------------------
