@@ -870,13 +870,12 @@ section,
 }
 @media (max-width: 768px) {
     .hero {
-        padding-top: 80px;
         min-height: 60dvh;
-        padding-bottom: 80px;
         background-attachment: scroll;
     }
     .hero h2 {
         font-size: 24px;
+        padding-top: 7rem;
     }
     .hero p {
         font-size: 20px;
@@ -889,9 +888,12 @@ section,
         height: 50px;
         font-size: 20px;
     }
+    .hero p span {
+        color: var(--accent-color);
+        border-bottom: 2px solid var(--accent-color);
+    }
 }
 @media (max-width: 468px) {
-
 
 }
 
