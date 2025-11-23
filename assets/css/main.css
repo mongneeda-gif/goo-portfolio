@@ -866,6 +866,9 @@ section,
         background-position: left 0 bottom -20px;
         background-attachment: scroll;
     }
+    .hero h2{
+        padding-top: 7rem;
+    }
 
 }
 @media (max-width: 768px) {
@@ -875,7 +878,7 @@ section,
     }
     .hero h2 {
         font-size: 24px;
-        padding-top: 7rem;
+
     }
     .hero p {
         font-size: 20px;
