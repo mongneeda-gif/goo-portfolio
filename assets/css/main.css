@@ -4379,4 +4379,17 @@ section,
     object-fit: cover; /* 중요! 화면을 꽉 채우면서 비율 유지 */
     z-index: -1;
 }
-  
+.video-container {
+    width: 100%;
+    max-width: 1200px;        /* 원하는 최대 너비 */
+    margin: 0 auto;
+}
+.responsive-video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;     /* 16:9 비율 (YouTube 기본) */
+    /* 원하는 비율로 변경 가능 */
+    /* aspect-ratio: 4 / 3;    4:3 비율 */
+    /* aspect-ratio: 1 / 1;    정사각형 */
+    /* aspect-ratio: 21 / 9;   울트라와이드 */
+}
